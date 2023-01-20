@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.d7fc2bed.css",
-    "main.js": "/my-portfolio/static/js/main.e69eb324.js",
+    "main.js": "/my-portfolio/static/js/main.f15c4288.js",
     "static/media/Raul-Chang-NoBG2.png": "/my-portfolio/static/media/Raul-Chang-NoBG2.d357f694994825d1c5a3.png",
     "static/media/Certificado-Carrera-Coderhouse.png": "/my-portfolio/static/media/Certificado-Carrera-Coderhouse.a6edfa3bb9543247bb57.png",
     "static/media/Certificado-ReactJS.png": "/my-portfolio/static/media/Certificado-ReactJS.61e68fbdf982950f9534.png",
@@ -17,10 +17,10 @@
     "static/media/skills.jpg": "/my-portfolio/static/media/skills.38a21c14ad254e87677f.jpg",
     "index.html": "/my-portfolio/index.html",
     "main.d7fc2bed.css.map": "/my-portfolio/static/css/main.d7fc2bed.css.map",
-    "main.e69eb324.js.map": "/my-portfolio/static/js/main.e69eb324.js.map"
+    "main.f15c4288.js.map": "/my-portfolio/static/js/main.f15c4288.js.map"
   },
   "entrypoints": [
     "static/css/main.d7fc2bed.css",
-    "static/js/main.e69eb324.js"
+    "static/js/main.f15c4288.js"
   ]
 }
