@@ -15,13 +15,16 @@ const Contact = () => {
         <div className="contact__content">
           <div className="contact__cards">
             <article className="contact__card">
-              
-              <BsLinkedin className='contact__icon' />
-              <h5>Linkedin</h5>                          
+              <a href="https://www.linkedin.com/in/raul-chang-link/">
+                <BsLinkedin className='contact__icon' />
+                <h5>Linkedin</h5> 
+              </a>                                       
             </article>
             <article className="contact__card">
-              <FaGithub className='contact__icon' />
-              <h5>Github</h5>                         
+              <a href="https://github.com/Raul-Chang">
+                <FaGithub className='contact__icon' />
+                <h5>Github</h5> 
+              </a>                                      
             </article>
             <article className="contact__card">
               <a href="mailto:rauledchangto@gmail.com">
