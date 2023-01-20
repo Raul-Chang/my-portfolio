@@ -35,7 +35,7 @@ function Experience() {
           <BsFillBookmarkCheckFill className='experience__card__icon'/>
           <p>
             Las responsabilidades del cargo incluían comunicarse con los clientes para determinar posibles diseños Y
-            características que deseaban los clientes, utilizar las plantillas de la plataforma de amawebs para tener
+            características que fuesen necesarias, utilizar las plantillas de la plataforma de amawebs para tener
             un esqueleto del sitio y luego utilizar conocimientos de HTML, CSS y JS para completar los sitios webs.
           </p>         
         </div>  
