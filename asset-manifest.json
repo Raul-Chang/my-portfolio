@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.5c49f5c5.css",
+    "main.js": "/my-portfolio/static/js/main.ad42dea6.js",
+    "static/media/cv.pdf": "/my-portfolio/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/Raul-Chang-NoBG2.png": "/my-portfolio/static/media/Raul-Chang-NoBG2.d357f694994825d1c5a3.png",
+    "static/media/Certificado-Carrera-Coderhouse.png": "/my-portfolio/static/media/Certificado-Carrera-Coderhouse.a6edfa3bb9543247bb57.png",
+    "static/media/Certificado-ReactJS.png": "/my-portfolio/static/media/Certificado-ReactJS.61e68fbdf982950f9534.png",
+    "static/media/Certificado-DesarrolloWeb.png": "/my-portfolio/static/media/Certificado-DesarrolloWeb.06376bfc286bee29bc36.png",
+    "static/media/Certificado-JS.png": "/my-portfolio/static/media/Certificado-JS.1802a506718d8af83302.png",
+    "static/media/WorldOfPC.jpg": "/my-portfolio/static/media/WorldOfPC.b0fe97c5f6ee6c512a54.jpg",
+    "static/media/portafolio1.png": "/my-portfolio/static/media/portafolio1.d4d020bf1f398f332632.png",
+    "static/media/Certificado-Introduccion-a-Bases-de-Datos-y-SQL-EducaciónIT.jpeg": "/my-portfolio/static/media/Certificado-Introduccion-a-Bases-de-Datos-y-SQL-EducaciónIT.eb48df336badb1fd45a0.jpeg",
+    "static/media/xchocostorex.jpg": "/my-portfolio/static/media/xchocostorex.ae62e06508da4eb5056e.jpg",
+    "static/media/Certificado-Git_-Desarrollo-Colaborativo-EducaciónIT.jpeg": "/my-portfolio/static/media/Certificado-Git_-Desarrollo-Colaborativo-EducaciónIT.152b3507f277dab17630.jpeg",
+    "static/media/Certificado-Java-Principiantes-EducaciónIT.jpeg": "/my-portfolio/static/media/Certificado-Java-Principiantes-EducaciónIT.e53aefa54fb9885557e6.jpeg",
+    "static/media/skills.jpg": "/my-portfolio/static/media/skills.38a21c14ad254e87677f.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.5c49f5c5.css.map": "/my-portfolio/static/css/main.5c49f5c5.css.map",
+    "main.ad42dea6.js.map": "/my-portfolio/static/js/main.ad42dea6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c49f5c5.css",
+    "static/js/main.ad42dea6.js"
+  ]
+}
