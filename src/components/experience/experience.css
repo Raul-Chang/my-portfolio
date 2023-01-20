@@ -1,0 +1,47 @@
+
+.experience__card {
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    background-color: var(--color-main-2);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem 0 2rem 2rem;     
+}
+
+.experience__card__check {
+    display: grid;
+    grid-template-columns: 10% 80%;    
+}
+
+.experience__card__check:hover {
+    transform: scale(1.05);
+    color: yellowgreen;
+}
+
+.experience__card__icon {
+    font-size: 3rem;
+}
+
+.experience__card h3,h4 {
+    text-align: center;
+}
+
+.experience__card h3{
+    color: yellow;
+}
+
+.experience__card h4{
+    color: lightyellow;
+}
+
+/* --- Media Queries (SM) --- */
+
+@media screen and (max-width: 600px) {
+    
+    .experience__card__check{
+        grid-template-columns: 20% 70%;
+    }
+}
