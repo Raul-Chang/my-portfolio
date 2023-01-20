@@ -34,7 +34,7 @@ const Contact = () => {
               </a>                      
             </article>
             <article className="contact__card">
-              <a href={CV}>
+              <a href={CV} target="_blank">
                 <BiDownload className='contact__icon' />
                 <h5>CV</h5> 
               </a>                      
