@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.d7fc2bed.css",
-    "main.js": "/my-portfolio/static/js/main.f15c4288.js",
+    "main.css": "/my-portfolio/static/css/main.39d58c37.css",
+    "main.js": "/my-portfolio/static/js/main.ea758afc.js",
     "static/media/Raul-Chang-NoBG2.png": "/my-portfolio/static/media/Raul-Chang-NoBG2.d357f694994825d1c5a3.png",
     "static/media/Certificado-Carrera-Coderhouse.png": "/my-portfolio/static/media/Certificado-Carrera-Coderhouse.a6edfa3bb9543247bb57.png",
     "static/media/Certificado-ReactJS.png": "/my-portfolio/static/media/Certificado-ReactJS.61e68fbdf982950f9534.png",
@@ -16,11 +16,11 @@
     "static/media/cv.pdf": "/my-portfolio/static/media/cv.91a3a51f87d7331c5f1a.pdf",
     "static/media/skills.jpg": "/my-portfolio/static/media/skills.38a21c14ad254e87677f.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.d7fc2bed.css.map": "/my-portfolio/static/css/main.d7fc2bed.css.map",
-    "main.f15c4288.js.map": "/my-portfolio/static/js/main.f15c4288.js.map"
+    "main.39d58c37.css.map": "/my-portfolio/static/css/main.39d58c37.css.map",
+    "main.ea758afc.js.map": "/my-portfolio/static/js/main.ea758afc.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7fc2bed.css",
-    "static/js/main.f15c4288.js"
+    "static/css/main.39d58c37.css",
+    "static/js/main.ea758afc.js"
   ]
 }
