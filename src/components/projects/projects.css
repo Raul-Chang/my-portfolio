@@ -3,11 +3,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
     justify-content: center;
+    justify-items: center;
 }
 
 .projects__cards {
     padding: 1rem;
-    width: 18rem;
+    width: 17rem;
     text-align: justify;
     text-justify: inter-word;
 }

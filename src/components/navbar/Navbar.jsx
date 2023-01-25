@@ -6,20 +6,62 @@ import {TbCertificate} from 'react-icons/tb'
 import {RiServiceLine, RiComputerLine} from 'react-icons/ri'
 import {MdOutlineMessage} from 'react-icons/md'
 import { useState } from 'react'
+import { useScrollPosition } from './navbarPosition'
 
 function Navbar() {
 
-  const [activeNavbar, setactiveNavbar] = useState('#')
+  const [activeNavbar, setactiveNavbar] = useState('#home')
+
+  const scrollPosition = useScrollPosition();
+  console.log(scrollPosition);
+
+const sections = document.querySelectorAll('section');
+const navLi  = document.querySelectorAll(' nav ul li a');
+
+window.addEventListener('scroll', ()=> {
+  let current = '';
+  sections.forEach( section => {
+    const sectionTop = section.offsetTop;
+    if(scrollPosition < 400) {
+      current = 'home'
+    } else if(scrollPosition >= (sectionTop - 400)) {
+      current = section.getAttribute('id');
+    }
+  })
+
+  navLi.forEach( li => {
+    li.classList.remove('active');
+    if(li.classList.contains(current)){
+      li.classList.add('active')
+    }
+  })
+})
 
   return (
     <nav>
-      <a href="#" title='Home' onClick={() => setactiveNavbar('#')} className={activeNavbar === '#' ? 'active' : ''}><FaHome /></a>
-      <a href="#about" title='Acerca de Mi' onClick={() => setactiveNavbar('#about')} className={activeNavbar === '#about' ? 'active' : ''}><FaUserTie /></a>
-      <a href="#skills" title='Habilidades' onClick={() => setactiveNavbar('#skills')} className={activeNavbar === '#skills' ? 'active' : ''}><BiBook /></a> 
-      <a href="#experience" title='Experiencia' onClick={() => setactiveNavbar('#experience')} className={activeNavbar === '#experience' ? 'active' : ''}><RiServiceLine /></a>  
-      <a href="#education" title='Educación' onClick={() => setactiveNavbar('#education')} className={activeNavbar === '#education' ? 'active' : ''}><TbCertificate /></a>          
-      <a href="#projects" title='Proyectos' onClick={() => setactiveNavbar('#projects')} className={activeNavbar === '#projects' ? 'active' : ''}><RiComputerLine /></a>      
-      <a href="#contact" title='Contacto' onClick={() => setactiveNavbar('#contact')} className={activeNavbar === '#contact' ? 'active' : ''}><MdOutlineMessage /></a>
+      <ul className='navbar'>
+        <li>
+          <a href="#home" title='Home' onClick={() => setactiveNavbar('#home')} className= {activeNavbar === '#home' ? 'active home' : 'home'}><FaHome /></a>
+        </li>
+        <li>
+          <a href="#about" title='Acerca de Mi' onClick={() => setactiveNavbar('#about')} className= {activeNavbar === '#about' ? 'active about' : 'about'}><FaUserTie /></a>
+        </li>
+        <li>
+          <a href="#skills" title='Habilidades' onClick={() => setactiveNavbar('#skills')} className= {activeNavbar === '#skills' ? 'active skills' : 'skills'}><BiBook /></a> 
+        </li>
+        <li>
+          <a href="#experience" title='Experiencia' onClick={() => setactiveNavbar('#experience')} className= {activeNavbar === '#experience' ? 'active experience' : 'experience'}><RiServiceLine /></a>  
+        </li>
+        <li>
+          <a href="#education" title='Educación' onClick={() => setactiveNavbar('#education')} className= {activeNavbar === '#education' ? 'active education' : 'education'}><TbCertificate /></a>          
+        </li>
+        <li>
+          <a href="#projects" title='Proyectos' onClick={() => setactiveNavbar('#projects')} className= {activeNavbar === '#projects' ? 'active projects' : 'projects'}><RiComputerLine /></a>      
+        </li>
+        <li>
+          <a href="#contact" title='Contacto' onClick={() => setactiveNavbar('#contact')} className= {activeNavbar === '#contact' ? 'active contact' : 'contact'}><MdOutlineMessage /></a>
+        </li>
+      </ul>
     </nav>    
   )
 }

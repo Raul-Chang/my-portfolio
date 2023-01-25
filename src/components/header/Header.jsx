@@ -7,7 +7,7 @@ import HeaderSocialMedia from './HeaderSocialMedia'
 function Header() {
   return (
     <header>
-      <div className="container header__container">
+      <div className="container header__container" id='home'>
         <div className="greeting" id='header'>
           <h5>¡Un Placer Conocerte!</h5>          
           <h1>Raul Chang</h1>
