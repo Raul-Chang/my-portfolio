@@ -1,31 +1,23 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.c529ef65.css",
-    "main.js": "/my-portfolio/static/js/main.eae97f95.js",
+    "main.css": "/my-portfolio/static/css/main.6a37f39c.css",
+    "main.js": "/my-portfolio/static/js/main.8e3a2fef.js",
     "static/media/Raul-Chang-NoBG2.png": "/my-portfolio/static/media/Raul-Chang-NoBG2.d357f694994825d1c5a3.png",
     "static/media/Certificado-Carrera-Coderhouse.png": "/my-portfolio/static/media/Certificado-Carrera-Coderhouse.a6edfa3bb9543247bb57.png",
     "static/media/Certificado-ReactJS.png": "/my-portfolio/static/media/Certificado-ReactJS.61e68fbdf982950f9534.png",
     "static/media/Certificado-DesarrolloWeb.png": "/my-portfolio/static/media/Certificado-DesarrolloWeb.06376bfc286bee29bc36.png",
     "static/media/Certificado-JS.png": "/my-portfolio/static/media/Certificado-JS.1802a506718d8af83302.png",
-    "static/media/worldofpc2.png": "/my-portfolio/static/media/worldofpc2.5e12b71acdf184941bf3.png",
-    "static/media/worldofpc1.png": "/my-portfolio/static/media/worldofpc1.dcec907495567aa939bb.png",
-    "static/media/worldofpc3.png": "/my-portfolio/static/media/worldofpc3.7565c4efb9a04e46d77c.png",
-    "static/media/worldofpc5.png": "/my-portfolio/static/media/worldofpc5.b59ff1b17939cb504269.png",
-    "static/media/WorldOfPC.jpg": "/my-portfolio/static/media/WorldOfPC.b0fe97c5f6ee6c512a54.jpg",
-    "static/media/portafolio1.png": "/my-portfolio/static/media/portafolio1.d4d020bf1f398f332632.png",
     "static/media/Certificado-Introduccion-a-Bases-de-Datos-y-SQL-EducaciónIT.jpeg": "/my-portfolio/static/media/Certificado-Introduccion-a-Bases-de-Datos-y-SQL-EducaciónIT.eb48df336badb1fd45a0.jpeg",
-    "static/media/xchocostorex.jpg": "/my-portfolio/static/media/xchocostorex.ae62e06508da4eb5056e.jpg",
     "static/media/Certificado-Git_-Desarrollo-Colaborativo-EducaciónIT.jpeg": "/my-portfolio/static/media/Certificado-Git_-Desarrollo-Colaborativo-EducaciónIT.152b3507f277dab17630.jpeg",
     "static/media/Certificado-Java-Principiantes-EducaciónIT.jpeg": "/my-portfolio/static/media/Certificado-Java-Principiantes-EducaciónIT.e53aefa54fb9885557e6.jpeg",
-    "static/media/worldofpc4.png": "/my-portfolio/static/media/worldofpc4.c6fe601f286b0e22d381.png",
     "static/media/cv.pdf": "/my-portfolio/static/media/cv.91a3a51f87d7331c5f1a.pdf",
     "static/media/skills.jpg": "/my-portfolio/static/media/skills.38a21c14ad254e87677f.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.c529ef65.css.map": "/my-portfolio/static/css/main.c529ef65.css.map",
-    "main.eae97f95.js.map": "/my-portfolio/static/js/main.eae97f95.js.map"
+    "main.6a37f39c.css.map": "/my-portfolio/static/css/main.6a37f39c.css.map",
+    "main.8e3a2fef.js.map": "/my-portfolio/static/js/main.8e3a2fef.js.map"
   },
   "entrypoints": [
-    "static/css/main.c529ef65.css",
-    "static/js/main.eae97f95.js"
+    "static/css/main.6a37f39c.css",
+    "static/js/main.8e3a2fef.js"
   ]
 }
