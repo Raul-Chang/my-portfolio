@@ -10,7 +10,7 @@ import SQL from '../../assets/Certificado-Introduccion-a-Bases-de-Datos-y-SQL-Ed
 
 class EducationCarrousel extends React.Component{render() {
   return (
-    <Carousel className='education__carousel'>
+    <Carousel className='education__carousel' interval={2500}>
         
     <Carousel.Item>
         <a href="https://www.coderhouse.com/certificados/638cf8293f43ff000f6ef0a6" target="_blank">

@@ -20,10 +20,6 @@
     transition: var(--transition);
 }
 
-.about__me-image:hover {    
-    transform: rotate(10deg);
-}
-
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -36,11 +32,6 @@
     border-radius: 1rem;
     padding: 1rem;
     text-align: center;
-}
-
-.about__card:hover {
-    background: transparent;
-    border-color: var(--color-main-2);
 }
 
 .about__icon {
@@ -73,6 +64,15 @@
 
 .about__content {
     text-align: center;
+}
+
+/* --- Hover --- */
+
+@media (hover: hover){
+    .about__card:hover{
+        background: transparent;
+        border-color: var(--color-main-2);
+    }
 }
 
 /* --- Media Queries (MD) --- */

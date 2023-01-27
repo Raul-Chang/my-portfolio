@@ -16,11 +16,6 @@
     grid-template-columns: 10% 80%;    
 }
 
-.experience__card__check:hover {
-    transform: scale(1.05);
-    color: yellowgreen;
-}
-
 .experience__card__icon {
     font-size: 3rem;
 }
@@ -35,6 +30,15 @@
 
 .experience__card h4{
     color: lightyellow;
+}
+
+/* --- Hover --- */
+
+@media (hover: hover){
+    .experience__card__check:hover {
+        transform: scale(1.05);
+        color: yellowgreen;
+    }
 }
 
 /* --- Media Queries (SM) --- */

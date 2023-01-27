@@ -36,11 +36,6 @@
     border-radius: 50%;
 }
 
-.skills__details:hover {
-    transform: scale(1.5);
-    color: yellow;
-}
-
 .skills__container h3{
     color: yellow;
 }
@@ -61,6 +56,15 @@
       }    
 }
 
+/* --- Hover --- */
+
+@media (hover: hover){
+    .skills__details:hover {
+        transform: scale(1.5);
+        color: yellow;
+    }
+}
+
 /* --- Media Queries (MD) --- */
 
 @media screen and (max-width: 1024px) {
@@ -69,6 +73,10 @@
         grid-template-columns: 1fr;
         gap: 4rem;
         align-items: center;
+    }
+
+    .skills__imgcont {
+        display: none;
     }
 }
 

@@ -11,9 +11,7 @@ import { useScrollPosition } from './navbarPosition'
 function Navbar() {
 
   const [activeNavbar, setactiveNavbar] = useState('#home')
-
   const scrollPosition = useScrollPosition();
-  console.log(scrollPosition);
 
 const sections = document.querySelectorAll('section');
 const navLi  = document.querySelectorAll(' nav ul li a');
@@ -22,9 +20,9 @@ window.addEventListener('scroll', ()=> {
   let current = '';
   sections.forEach( section => {
     const sectionTop = section.offsetTop;
-    if(scrollPosition < 400) {
+    if(scrollPosition < 300) {
       current = 'home'
-    } else if(scrollPosition >= (sectionTop - 400)) {
+    } else if(scrollPosition >= (sectionTop - 300)) {
       current = section.getAttribute('id');
     }
   })

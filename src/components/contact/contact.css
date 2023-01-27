@@ -41,7 +41,16 @@
 
 #contact {
     min-height: fit-content;
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
+}
+
+/* --- Hover --- */
+
+@media (hover: hover){
+    .contact__card:hover {
+        transform: scale(1.1);
+        background-color: black;
+    }
 }
 
 /* --- Media Queries (SM) --- */

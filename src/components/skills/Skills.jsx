@@ -24,7 +24,7 @@ const Skills = () => {
 
             <article className='skills__details'>
               <IoLogoCss3 className='skills__icon'/>
-              <h4>CSS3, SCSS & SASS</h4>
+              <h4>CSS3</h4>
             </article>
 
             <article className='skills__details'>

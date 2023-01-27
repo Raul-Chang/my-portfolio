@@ -26,10 +26,39 @@
 
 .card__btn__project {
     font-size: 0.6rem;
+    color: red;
+    
 }
 
 .card-body{
     padding: 0.5rem 0 ;
+}
+
+.project__modal {
+    color: black;
+    width: 90%;
+}
+
+.project__modal h2{
+    text-align: center;
+}
+.pill__container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.project__techpill{
+    background-color: darkcyan;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.hidden {
+    display: none;
 }
 
 /* --- Media Queries (MD) --- */
