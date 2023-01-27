@@ -20,40 +20,25 @@ function ProjectModals(props) {
       <Modal size="lg" show={show} onHide={handleClose} className='project__modal'>
         <Modal.Header closeButton>
           <Modal.Title>
-            <h2>{props.title}</h2>
+            <h2>{props.data.title}</h2>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>            
             <div>
-                <h4>{props.subtitle}</h4>
-                <p>{props.description}</p>
+                <h4>{props.data.modalSubtitle}</h4>
+                <p>{props.data.modalDescription}</p>
             </div>
             <div>             
                 <h4>Tecnologías utilizadas</h4>
                 <div className='pill__container'>
                 <div className='project__techpill'>{props.pill1}</div>
-                <div className='project__techpill'>{props.pill2}</div>
-                <div className='project__techpill'>{props.pill3}</div>
-                <div className='project__techpill'>{props.pill4}</div>
-                <div className='project__techpill'>{props.pill5}</div>
-                <div className='project__techpill'>{props.pill6}</div>
-                <div className='project__techpill'>{props.pill7}</div>
-                <div className='project__techpill'>{props.pill8}</div>
-                <div className='project__techpill'>{props.pill9}</div>
-                <div className="project__techpill ">{props.pill10}</div>
+                {props.data.technologies.map((tech) => (
+                  <div className='project__techpill'>{tech}</div>
+                ))}
               </div>
             </div>
             <ProjectModalCarousel 
-            imgc1= {props.imgc1}
-            alt1= {props.alt1}
-            imgc2= {props.imgc2}
-            alt2= {props.alt2}
-            imgc3= {props.imgc3}
-            alt3= {props.alt3}
-            imgc4= {props.imgc4}
-            alt4= {props.alt4}
-            imgc5= {props.imgc5}
-            alt5= {props.alt5}
+            data= {props.data}
             />
             
         </Modal.Body>

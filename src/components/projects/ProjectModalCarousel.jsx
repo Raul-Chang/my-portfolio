@@ -4,7 +4,21 @@ import Carousel from 'react-bootstrap/Carousel';
 function ProjectModalCarousel(props) {
   return (
     <Carousel className='projects__carousel' interval={2500}>        
-    <Carousel.Item>
+        {props.data.images.map((dat) => (
+                <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src={dat.source}
+                        alt={dat.detail}
+                        />  
+                        <Carousel.Caption>
+                                <h3 className='project__carousel__caption'>{dat.detail}</h3>          
+                        </Carousel.Caption>
+                </Carousel.Item> 
+
+        ))}
+
+    {/* <Carousel.Item>
             <img
             className="d-block w-100"
             src={props.imgc1}
@@ -38,7 +52,7 @@ function ProjectModalCarousel(props) {
             src={props.imgc5}
             alt={props.alt5}
         />    
-    </Carousel.Item>
+    </Carousel.Item> */}
   </Carousel>
   )
 }

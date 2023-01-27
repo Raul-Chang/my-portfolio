@@ -57,8 +57,9 @@
     padding: 1rem;
 }
 
-.hidden {
-    display: none;
+.project__carousel__caption{
+    color: yellow;
+    text-shadow: 1px 1px 2px black;
 }
 
 /* --- Media Queries (MD) --- */
