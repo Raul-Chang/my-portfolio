@@ -30,8 +30,7 @@ function ProjectModals(props) {
             </div>
             <div>             
                 <h4>Tecnologías utilizadas</h4>
-                <div className='pill__container'>
-                <div className='project__techpill'>{props.pill1}</div>
+                <div className='pill__container'>                
                 {props.data.technologies.map((tech) => (
                   <div className='project__techpill'>{tech}</div>
                 ))}
