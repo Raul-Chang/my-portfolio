@@ -15,11 +15,11 @@
                 'React Hooks', 
                 'Bootstrap' ],
             images: [
-                {source:"http://drive.google.com/uc?export=view&id=11gzlgB5n9KiPKyD_3nED-uzyG-19MYj-" , detail: "World of PC Home"},
-                {source:"http://drive.google.com/uc?export=view&id=1pvwIn68cLyqwXi0ViENnXy8OjdOASEht"  , detail: "World of PC Detalle de Producto"},
-                {source:"http://drive.google.com/uc?export=view&id=1iIMR3ttt7MA1JQ1DjWXjFxWxuuTeo4i9" , detail: "World of PC Carro de Compras"},
-                {source:"http://drive.google.com/uc?export=view&id=1iXIOfQddu8s2b4sKDnttAeCb4jXUM_Wg" , detail: "World of PC Orden de Compra"},
-                {source:"http://drive.google.com/uc?export=view&id=1-_bFBEbubAtu9lUTBuNdlhC6sg5tWfh7"  , detail: "World of PC Lista de Productos"},
+                {source:"http://drive.google.com/uc?export=view&id=1hdz3b6bSoTqwaGi2YwdoZKv5twgoH070" , detail: "Portafolio Home"},
+                {source:"http://drive.google.com/uc?export=view&id=1uWk-_E3PNfP5DVl9UP2Tyqp_5kha-q1j"  , detail: "Sección Acerca de Mi"},
+                {source:"http://drive.google.com/uc?export=view&id=16lmiy0jKc5LxJDZzE2FkYpUoJXBrtcbS" , detail: "Sección Habilidades"},
+                {source:"http://drive.google.com/uc?export=view&id=1_pdyj-15wZzXxfR43hVip8jto_UukNtc" , detail: "Sección Educación"},
+                {source:"http://drive.google.com/uc?export=view&id=12djIeDx7T58jizUB1wHEnvHXa0L3rmAE"  , detail: "Sección Projectos"},
             ]
         },
         {
@@ -52,11 +52,12 @@
             cardDescription: "Consiste en un modelo de ecommerce relacionada con chocolate. Fue un proyecto para un curso de Javascript",
             cardTarget:"_blank",
             modalsubtitle: "Ecommerce de Tienda de Chocolates",
-            modalDescription:"Proyecto inicial con el cual comence mi formación en el área de desarrollo web, ",
+            modalDescription:"Proyecto inicial con el cual comence mi formación en el área de desarrollo web, es un sitio de web de 5 paginas que simula una tienda de chocolates, incluye tambiém el uso de varias librerias y APIs, como Sweetalert y Formspree. El proyecto es responsive",
             technologies: [
                 'HTML5', 
                 'CSS3', 
                 'Javascript', 
+                'Bootstrap'
             ], 
             images: [
                 {source:"http://drive.google.com/uc?export=view&id=10eLfF3U5Tx3_zBHSpt1q1MabDU-uV9mx" , detail: "xChocostorex Home"},

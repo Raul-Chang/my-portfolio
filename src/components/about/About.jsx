@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/Raul-Chang-NoBG2.png'
+import ME from '../../assets/Raul-Chang-NoBG.png'
 import {FaMedal, FaUserGraduate} from 'react-icons/fa'
 import {RiComputerLine} from 'react-icons/ri'
 const About = () => {

@@ -11,8 +11,10 @@ function ProjectModals(props) {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+    let modalKey = `modal${props.cardKey}`;
+
   return (       
-    <>
+    <div key= {props.cardKey}>
       <Button variant="primary" onClick={handleShow} className='card__btn__project btn btn-primary'>
         Mas Información
       </Button>
@@ -32,7 +34,7 @@ function ProjectModals(props) {
                 <h4>Tecnologías utilizadas</h4>
                 <div className='pill__container'>                
                 {props.data.technologies.map((tech) => (
-                  <div className='project__techpill'>{tech}</div>
+                  <div className='project__techpill' key= {modalKey}>{tech}</div>
                 ))}
               </div>
             </div>
@@ -50,7 +52,7 @@ function ProjectModals(props) {
           </Button>
         </Modal.Footer>
       </Modal>
-    </>
+    </div>
   )
 }
 

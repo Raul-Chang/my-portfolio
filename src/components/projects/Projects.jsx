@@ -4,8 +4,7 @@ import ProjectCards from './ProjectCards'
 import projectsData2 from './projectsData.js'
 
 
-function Projects() {
-  console.log(projectsData2[0].images[0].source);
+function Projects() {  
   return (
     <section id='projects'>
       <h5>¿Qué Ideas Me Han Inspirado?</h5>
@@ -20,6 +19,7 @@ function Projects() {
           cardImg = {data.images[0].source}  
           cardLink = {data.cardLink} 
           cardTarget = {data.cardTarget}
+          key={data.id}          
           data={data}
         />
         ))}             

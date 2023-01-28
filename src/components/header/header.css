@@ -66,7 +66,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 110vh;
+        height: fit-content;
     }  
     
     .header__socialMedia {
@@ -78,12 +78,14 @@ header {
 
 @media screen and (max-width: 600px) {
     header {
-        height: 110vh;
+        height: fit-content;
         padding-top: 3rem;
     }
     
     .header__socialMedia {
-        display: none;
+        flex-direction: row;
+        left: 8rem;
+        bottom: 8rem;
     }    
 
     .me {
