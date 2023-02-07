@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.eed92c16.css",
-    "main.js": "/my-portfolio/static/js/main.5adbbd85.js",
+    "main.css": "/my-portfolio/static/css/main.a89b0912.css",
+    "main.js": "/my-portfolio/static/js/main.7785786f.js",
     "static/media/Raul-Chang-NoBG.png": "/my-portfolio/static/media/Raul-Chang-NoBG.ca90ad70ef212adb9b71.png",
     "static/media/Raul-Chang-NoBG2.png": "/my-portfolio/static/media/Raul-Chang-NoBG2.e7406de8cab596182db5.png",
     "static/media/Certificado-Carrera-Coderhouse.png": "/my-portfolio/static/media/Certificado-Carrera-Coderhouse.a6edfa3bb9543247bb57.png",
@@ -11,14 +11,14 @@
     "static/media/Certificado-Introduccion-a-Bases-de-Datos-y-SQL-EducaciónIT.jpeg": "/my-portfolio/static/media/Certificado-Introduccion-a-Bases-de-Datos-y-SQL-EducaciónIT.eb48df336badb1fd45a0.jpeg",
     "static/media/Certificado-Git_-Desarrollo-Colaborativo-EducaciónIT.jpeg": "/my-portfolio/static/media/Certificado-Git_-Desarrollo-Colaborativo-EducaciónIT.152b3507f277dab17630.jpeg",
     "static/media/Certificado-Java-Principiantes-EducaciónIT.jpeg": "/my-portfolio/static/media/Certificado-Java-Principiantes-EducaciónIT.e53aefa54fb9885557e6.jpeg",
-    "static/media/cv.pdf": "/my-portfolio/static/media/cv.91a3a51f87d7331c5f1a.pdf",
+    "static/media/cv.pdf": "/my-portfolio/static/media/cv.ea58beafe51f65a3f946.pdf",
     "static/media/skills.jpg": "/my-portfolio/static/media/skills.38a21c14ad254e87677f.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.eed92c16.css.map": "/my-portfolio/static/css/main.eed92c16.css.map",
-    "main.5adbbd85.js.map": "/my-portfolio/static/js/main.5adbbd85.js.map"
+    "main.a89b0912.css.map": "/my-portfolio/static/css/main.a89b0912.css.map",
+    "main.7785786f.js.map": "/my-portfolio/static/js/main.7785786f.js.map"
   },
   "entrypoints": [
-    "static/css/main.eed92c16.css",
-    "static/js/main.5adbbd85.js"
+    "static/css/main.a89b0912.css",
+    "static/js/main.7785786f.js"
   ]
 }
