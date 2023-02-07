@@ -40,6 +40,35 @@ function Experience() {
           </p>         
         </div>  
         </div>
+        <div className="experience__card">
+        <h3>Repartos Ya S.A.</h3>
+        <h4>Personal Shopper Referente (Noviembre 2017 - Diciembre 2022)</h4>
+
+        <div className='experience__card__check'>
+          <BsFillBookmarkCheckFill className='experience__card__icon'/>
+          <p>
+            Repartos Ya es una empresa afiliada a Pedidos Ya, la cual se encarga de recibir, preparar y entregar las órdenes que
+            se realizan a través del sitio web y la aplicación movil de Pedidos Ya. El puesto de Referente es un cargo que tiene
+            como objetivo la organizar a los Personal Shopper para el correcto cumplimiento de sus funcionas, tambien se encarga de 
+            comunicarse con los gerentes o encargados de las sucursales en caso de que sea necesario.            
+          </p>          
+        </div>
+        <div className='experience__card__check'>
+          <BsFillBookmarkCheckFill className='experience__card__icon'/>
+          <p>
+            Fue una experiencia laboral que no está directamente relacionada con el área de desarrollo web. Esto se debe a que fue 
+            el primer trabajo en blanco que logré conseguir al migrar de Venezuela a Argentina. Mientras me encontraba en este laburo
+            aproveché a realizar cursos y una carrera en área de programación, para recibir un formación profesional en el área de desarrollo web.
+          </p>         
+        </div> 
+        <div className='experience__card__check'>
+          <BsFillBookmarkCheckFill className='experience__card__icon'/>
+          <p>
+            En diciembre del 2022 debido a un cambio en la políticas de entrega de pedidos entre Pedidos Ya y los comercios afiliados, 
+            perdí este empleo y me encuentro actualmente en busca de uno en el área de desarrollo web.
+          </p>         
+        </div>  
+        </div>
       </div>
       
 
